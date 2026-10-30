@@ -1,0 +1,7 @@
+this file for the hex codes of the colors of the project.
+
+
+1. coal black: the main color of the project for the back grounds, #111318
+2. dark blue gray: sidebars, topbars, bards, ..., #1C222B
+3. quiet gold: main buttons, important links, special icons, #C6A15B
+4. warm white: fonts color, #F4F0E8
