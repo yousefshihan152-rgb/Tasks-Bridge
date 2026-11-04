@@ -29,5 +29,11 @@ app.get('/', (req, res) => {
     if ( req.body.rol ) {
         if ( req.body.rol === "register" ) { return res.redirect('/register') }
         if ( req.body.rol === "login" ) { return res.redirect('/login') }
-    } res.sendFile()
+    } res.sendFile(index)
 })
+
+app.get('/error', (req, res) => { res.sendFile(error) })
+
+app.post('api/register/')
+
+app.listen(PORT, () => { console.log(link) })
